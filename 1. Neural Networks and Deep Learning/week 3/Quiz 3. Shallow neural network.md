@@ -89,3 +89,4 @@
     
     Note: Check [here](https://user-images.githubusercontent.com/14886380/29200515-7fdd1548-7e88-11e7-9d05-0878fe96bcfa.png) for general formulas to do this.
 
+    Note: This file is taken from [here](https://github.com/Kulbear/deep-learning-coursera/blob/master/Neural%20Networks%20and%20Deep%20Learning/Week%203%20Quiz%20-%20Shallow%20Neural%20Networks.md)
