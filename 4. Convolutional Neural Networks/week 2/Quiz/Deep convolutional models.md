@@ -25,9 +25,9 @@
 	- [x] False
 
 5. The following equation captures the computation in a ResNet block. What goes into the two blanks above?
-```
+`
 a[l+2]=g(W[l+2]g(W[l+1]a[l]+b[l+1])+bl+2+_______ )+_______
-```
+`
 	- [x] a[l] and 0, respectively
 	- [ ] z[l] and a[l], respectively
 	- [ ] 0 and a[l], respectively
