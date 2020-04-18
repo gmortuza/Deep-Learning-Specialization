@@ -19,7 +19,9 @@
 	- [ ] y = [1, ?, ?, ?, ?, 0, 0, 0]
   
 3. You are working on a factory automation task. Your system will see a can of soft-drink coming down a conveyor belt, and you want it to take a picture and decide whether (i) there is a soft-drink can in the image, and if so (ii) its bounding box. Since the soft-drink can is round, the bounding box is always square, and the soft drink can always appears as the same size in the image. There is at most one soft drink can in each image. Here’re some typical images in your training set:  
-![3](images/3.png). 
+  
+![3](images/3.png)
+  
 What is the most appropriate set of output units for your neural network
 
 	- [ ] Logistic unit (for classifying if there is a soft-drink can in the image)
