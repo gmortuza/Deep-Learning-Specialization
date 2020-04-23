@@ -23,11 +23,8 @@
 	- [ ] max(||f(A)-f(P)||<sup>2</sup> - ||f(A)-f(N)||<sup>2</sup> - α, 0)
 
 5. Consider the following Siamese network architecture:
-
 ![5](images/5.png)  
-
 The upper and lower neural networks have different input images, but have exactly the same parameters.  
-
 	- [x] True
 	- [ ] False
 
@@ -55,6 +52,6 @@ The upper and lower neural networks have different input images, but have exactl
 
 10. You are working with 3D data. You are building a network layer whose input volume has size 32x32x32x16 (this volume has 16 channels), and applies convolutions with 32 filters of dimension 3x3x3 (no padding, stride 1). What is the resulting output volume?
 
-	- [x]30x30x30x32
-	- [ ]30x30x30x16
-	- [ ]Undefined: This convolution step is impossible and cannot be performed because the dimensions specified don’t match up.
+	- [x] 30x30x30x32
+	- [ ] 30x30x30x16
+	- [ ] Undefined: This convolution step is impossible and cannot be performed because the dimensions specified don’t match up.
