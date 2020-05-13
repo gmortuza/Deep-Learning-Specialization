@@ -74,7 +74,7 @@ From these, we can see that the Update Gate and Forget Gate in the LSTM play a r
 10. You have a pet dog whose mood is heavily dependent on the current and past few days’ weather. You’ve collected data for the past 365 days on the weather, which you represent as a sequence as x<sup>/<1></sup>, …, x<sup>/<365></sup>. You’ve also collected data on your dog’s mood, which you represent as y<sup>/<1></sup>, …, y<sup>/<365></sup>. You’d like to build a model to map from x→y. Should you use a Unidirectional RNN or Bidirectional RNN for this problem?
 	- [ ] Bidirectional RNN, because this allows the prediction of mood on day t to take into account more information.
 	- [ ] Bidirectional RNN, because this allows backpropagation to compute more accurate gradients.
-	- [ ] Unidirectional RNN, because the value of y<sup>/<t></sup> depends only on x<sup>/<1></sup>,.....,x<sup>/<t></sup> but not on x<sup>/<t+1></sup>,.....,x<sup>/<365></sup>
- 	- [x] Unidirectional RNN, because the value of y<sup>/<t></sup>depends only on x<sup>/<t></sup> , and not other days’ weather.
+	- [x] Unidirectional RNN, because the value of y<sup>/<t></sup> depends only on x<sup>/<1></sup>,.....,x<sup>/<t></sup> but not on x<sup>/<t+1></sup>,.....,x<sup>/<365></sup>
+ 	- [ ] Unidirectional RNN, because the value of y<sup>/<t></sup>depends only on x<sup>/<t></sup> , and not other days’ weather.
 
 
