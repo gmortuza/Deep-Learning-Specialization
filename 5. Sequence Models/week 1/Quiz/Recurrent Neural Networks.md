@@ -60,8 +60,8 @@ Alice proposes to simplify the GRU by always removing the Γ<sub>u</sub>	. I.e.,
 	
 	- [ ] Alice’s model (removing Γ<sub>u</sub>), because if Γ<sub>r</sub> ≈0 for a timestep, the gradient can propagate back through that timestep without much decay.
 	- [ ] Alice’s model (removing  Γ<sub>u</sub>), because if  Γ<sub>r</sub> ≈1 for a timestep, the gradient can propagate back through that timestep without much decay.
-	- [x] Betty’s model (removing  Γ<sub>r</sub>), because if  Γ<sub>r</sub> ≈0 for a timestep, the gradient can propagate back through that timestep without much decay.
-	- [ ] Betty’s model (removing  Γ<sub>u</sub>), because if  Γ<sub>u</sub> ≈1 for a timestep, the gradient can propagate back through that timestep without much decay.
+	- [x] Betty’s model (removing  Γ<sub>r</sub>), because if  Γ<sub>u</sub> ≈0 for a timestep, the gradient can propagate back through that timestep without much decay.
+	- [ ] Betty’s model (removing  Γ<sub>u</sub>), because if  Γ<sub>r</sub> ≈1 for a timestep, the gradient can propagate back through that timestep without much decay.
 
 9. Here are the equations for the GRU and the LSTM:
 ![Image 9](img/9.png)
