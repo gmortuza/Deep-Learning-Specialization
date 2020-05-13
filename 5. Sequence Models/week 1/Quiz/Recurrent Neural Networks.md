@@ -16,18 +16,15 @@ This specific type of architecture is appropriate when:
 	- [ ] T<sub>x</sub> = 1  
 
 3. To which of these tasks would you apply a many-to-one RNN architecture? (Check all that apply).
-
-![Image 3](img/3.png)
-	- [ ] Speech recognition (input an audio clip and output a transcript)
-	- [x] Sentiment classification (input a piece of text and output a 0/1 to denote positive or negative sentiment)
-	- [ ] Image classification (input an image and output a label)
-	- [x] Gender recognition from speech (input an audio clip and output a label indicating the speaker’s gender)
+![Image 3](img/3.png)  
+	- [ ] Speech recognition (input an audio clip and output a transcript)  
+	- [x] Sentiment classification (input a piece of text and output a 0/1 to denote positive or negative sentiment)  
+	- [ ] Image classification (input an image and output a label)  
+	- [x] Gender recognition from speech (input an audio clip and output a label indicating the speaker’s gender)  
 
 4. You are training this RNN language model.
-
 ![Image 4](img/4.png)
-
-At the t<sup>th</sup> time step, what is the RNN doing? Choose the best answer.
+At the t<sup>th</sup> time step, what is the RNN doing? Choose the best answer.  
 	- [ ] Estimating P(y<sup>\<1></sup>, y<sup>\<2></sup>, ...., y<sup>\<t-1></sup>)
 	- [ ] [] Estimating P(y<sup>\<1></sup>)
 	- [x] Estimating P(y<sup>\<t></sup> | y<sup>\<1></sup>, y<sup>\<2></sup>, ...., y<sup>\<t-1></sup>)
