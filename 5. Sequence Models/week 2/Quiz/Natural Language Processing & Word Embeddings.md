@@ -4,8 +4,8 @@
 	- [x] False
 
 2. What is t-SNE?
-    - [x] A linear transformation that allows us to solve analogies on word vectors
-    - [ ] A non-linear dimensionality reduction technique
+    - [ ] A linear transformation that allows us to solve analogies on word vectors
+    - [x] A non-linear dimensionality reduction technique
     - [ ] A supervised learning algorithm for learning word embeddings
     - [ ] An open-source sequence modeling library
 
@@ -56,7 +56,7 @@ Which of these statements are correct? Check all that apply.
 	- [x] *θ<sub>t</sub>* and *e<sub>c</sub>* are both 500 dimensional vectors.
 	- [ ] *θ<sub>t</sub>* and *e<sub>c</sub>* are both 10000 dimensional vectors.
 	- [x] *θ<sub>t</sub>* and *e<sub>c</sub>* are both trained with an optimization algorithm such as Adam or gradient descent.
-	- [x] After training, we should expect *θ<sub>t</sub>* to be very close to *e<sub>c</sub>* when *t* and *c* are the same word.
+	- [ ] After training, we should expect *θ<sub>t</sub>* to be very close to *e<sub>c</sub>* when *t* and *c* are the same word.
 
 9. Suppose you have a 10000 word vocabulary, and are learning 500-dimensional word embeddings.The GloVe model minimizes this objective:
 ![equation](img/8.png)  
