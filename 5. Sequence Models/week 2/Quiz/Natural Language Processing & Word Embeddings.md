@@ -50,7 +50,7 @@
 	- [ ] *c* is the sequence of all the words in the sentence before *t*.
 
 8. Suppose you have a 10000 word vocabulary, and are learning 500-dimensional word embeddings. The word2vec model uses the following softmax function:
-![softmax equation](img/8.png)
+![softmax equation](img/8.png)  
 Which of these statements are correct? Check all that apply.
 
 	- [x] *θ<sub>t</sub>* and *e<sub>c</sub>* are both 500 dimensional vectors.
@@ -59,7 +59,7 @@ Which of these statements are correct? Check all that apply.
 	- [x] After training, we should expect *θ<sub>t</sub>* to be very close to *e<sub>c</sub>* when *t* and *c* are the same word.
 
 9. Suppose you have a 10000 word vocabulary, and are learning 500-dimensional word embeddings.The GloVe model minimizes this objective:
-![equation](img/8.png)
+![equation](img/8.png)  
 Which of these statements are correct? Check all that apply.
 
 	- [ ] *θ<sub>i</sub>* and *e<sub>j</sub>* should be initialized to 0 at the beginning of training.
