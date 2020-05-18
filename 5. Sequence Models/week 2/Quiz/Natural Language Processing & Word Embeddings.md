@@ -11,11 +11,10 @@
 
 3. Suppose you download a pre-trained word embedding which has been trained on a huge corpus of text. You then use this word embedding to train an RNN for a language task of recognizing if someone is happy from a short snippet of text, using a small training set.
 
-    | x (input text)  | y (happy?)
- |
-	| ------------- | ------------- |
-	| I'm feeling wonderful today! | 1 |
-	| I'm bummed my cat is ill. | 0 |
+    | x (input text)  | y (happy?)  |
+	| ------------- | -------------  |
+	| I'm feeling wonderful today! | 1  |
+	| I'm bummed my cat is ill. | 0  |
 	| Really enjoying this!	 | 1  |
 
 	Then even if the word “ecstatic” does not appear in your small training set, your RNN might reasonably be expected to recognize “I’m ecstatic” as deserving a label y=1.
