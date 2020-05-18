@@ -51,19 +51,24 @@
 	- [ ] *c* is the sequence of all the words in the sentence before *t*.
 
 8. Suppose you have a 10000 word vocabulary, and are learning 500-dimensional word embeddings. The word2vec model uses the following softmax function:
-
-P(t∣c)= $\frac{n!}{\sum_{t' = 1}^{10000} t_i}$
+![softmax equation](img/8.png)
 Which of these statements are correct? Check all that apply.
-
 
 	- [x] *θ<sub>t</sub>* and *e<sub>c</sub>* are both 500 dimensional vectors.
 	- [ ] *θ<sub>t</sub>* and *e<sub>c</sub>* are both 10000 dimensional vectors.
 	- [x] *θ<sub>t</sub>* and *e<sub>c</sub>* are both trained with an optimization algorithm such as Adam or gradient descent.
 	- [x] After training, we should expect *θ<sub>t</sub>* to be very close to *e<sub>c</sub>* when *t* and *c* are the same word.
 
+9. Suppose you have a 10000 word vocabulary, and are learning 500-dimensional word embeddings.The GloVe model minimizes this objective:
+![equation](img/8.png)
+Which of these statements are correct? Check all that apply.
 
+	- [ ] *θ<sub>i</sub>* and *e<sub>j</sub>* should be initialized to 0 at the beginning of training.
+	- [x] *θ<sub>i</sub>* and *e<sub>j</sub>* should be initialized randomly at the beginning of training.
+	- [x] *X<sub>ij</sub>* is the number of times word j appears in the context of word i.
+	- [x] The weighting function *f(.)* must satisfy *f(0) = 0*
 
+10. You have trained word embeddings using a text dataset of *m<sub>1</sub>* words. You are considering using these word embeddings for a language task, for which you have a separate labeled dataset of *m<sub>2</sub>* words. Keeping in mind that using word embeddings is a form of transfer learning, under which of these circumstance would you expect the word embeddings to be helpful?
 
-
-
-
+	- [x] *m<sub>1</sub> >> m<sub>2</sub>*
+	- [ ] *m<sub>1</sub> << m<sub>2</sub>*
