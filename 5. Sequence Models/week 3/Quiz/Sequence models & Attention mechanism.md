@@ -2,8 +2,8 @@
 [Image 1](img/1.png)
 This model is a “conditional language model” in the sense that the encoder portion (shown in green) is modeling the probability of the input sentence *x*.
 
-    - [x] True
-    - [ ] False
+    - [ ] True
+    - [x] False
 
 2. In beam search, if you increase the beam width BB, which of the following would you expect to be true? Check all that apply.
     - [x] Beam search will run more slowly
@@ -43,10 +43,10 @@ Further, here is the formula for α<sup><t,t’></sup>.
 ![equation](img/6_1.png)
 Which of the following statements about α<sup><t,t’></sup> are true? Check all that apply.
 
-    - [ ] We expect  α<sup><t,t’></sup> to be generally larger for values of a<t> that are highly relevant to the value the network should output for y<t’>. (Note the indices in the superscripts.)
-    - [x] We expect  α<sup><t,t’></sup> to be generally larger for values of a<sup><t></sup> that are highly relevant to the value the network should output for y<sup><t’></sup>. (Note the indices in the superscripts.)
+    - [x] We expect  α<sup><t,t’></sup> to be generally larger for values of a<t> that are highly relevant to the value the network should output for y<t’>. (Note the indices in the superscripts.)
+    - [ ] We expect  α<sup><t,t’></sup> to be generally larger for values of a<sup><t></sup> that are highly relevant to the value the network should output for y<sup><t’></sup>. (Note the indices in the superscripts.)
     - [ ] ∑<sub>t</sub> α<sup> <t,t’><sup> =1 (Note the summation is over t.)
-    - [ ] ∑<sub>t'</sub> α<sup> <t,t’><sup> =1 (Note the summation is over t'.)
+    - [x] ∑<sub>t'</sub> α<sup> <t,t’><sup> =1 (Note the summation is over t'.)
     
 7. The network learns where to “pay attention” by learning the values e<sup><t,t’></sup>, which are computed using a small neural network: We can't replace s<sup><t−1></sup> with s<sup>t</sup> as an input to this neural network. This is because s<sup><t></sup> depends on α<sup><t,t’></sup> which in turn depends on e<sup><t,t’></sup> ; so at the time we need to evalute this network, we haven’t computed s<sup><t></sup> yet.
     
