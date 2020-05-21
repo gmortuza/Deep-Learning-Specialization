@@ -38,9 +38,9 @@ Would you expect increasing the beam width B to help correct this example?
     - [ ] False
 
 6. Consider the attention model for machine translation.
-![Model](img/6.png)
+![Model](img/6_1.png)
 Further, here is the formula for α<sup><t,t’></sup>.
-![equation](img/6_1.png)
+![equation](img/6_2.png)
 Which of the following statements about α<sup><t,t’></sup> are true? Check all that apply.
 
     - [x] We expect  α<sup><t,t’></sup> to be generally larger for values of a<t> that are highly relevant to the value the network should output for y<t’>. (Note the indices in the superscripts.)
