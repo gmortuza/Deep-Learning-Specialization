@@ -108,3 +108,6 @@ Logistic Regression with a Neural Network mindset](https://github.com/gmortuza/c
 - [Week 1](https://github.com/gmortuza/coursera-deeplearning/tree/master/5.%20Sequence%20Models/week%201/Notes) --> RNN, Notation, Vanishing gradient, GRU, LSTM, Bidirectional RNN, Deep RNN
 - [Week 2](https://github.com/gmortuza/coursera-deeplearning/tree/master/5.%20Sequence%20Models/week%202/Notes) --> Word representation, Word embedding, Cosine similarity, Word2Vec, Negetive sampling, GloVe words, Debiasing word
 - [Week 3](https://github.com/gmortuza/coursera-deeplearning/tree/master/5.%20Sequence%20Models/week%203/Notes) --> Beam search, Error analysis in Beam search, Bleu score, Attention model, Speech recognition
+
+# Specialization certificate:
+![Certificate](certificate.jpg)
