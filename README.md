@@ -71,8 +71,9 @@ Logistic Regression with a Neural Network mindset](https://github.com/gmortuza/c
 ### Programming excercise
 
 - [Week 1 - Convolutional Neural Networks: Application](https://github.com/gmortuza/coursera-deeplearning/blob/master/4.%20Convolutional%20Neural%20Networks/week%201/Programming%20assignment/Convolution_model_Application_v1a.ipynb)
-- [Week 2 - ]()
-- [Week 3 - ]()
+- [Week 2 - Keras](https://github.com/gmortuza/coursera-deeplearning/blob/master/4.%20Convolutional%20Neural%20Networks/week%202/Programming%20assignment/Keras/Keras_Tutorial_v2a.ipynb)
+- [Week 2 - ResNets](https://github.com/gmortuza/coursera-deeplearning/blob/master/4.%20Convolutional%20Neural%20Networks/week%202/Programming%20assignment/ResNets/Residual_Networks_v2a.ipynb)
+- [Week 3 - Car detection for Autonomous Driving](https://github.com/gmortuza/coursera-deeplearning/blob/master/4.%20Convolutional%20Neural%20Networks/week%203/Programming%20assignment/Car%20detection%20for%20Autonomous%20Driving/Autonomous_driving_application_Car_detection_v3a.ipynb)
 - [Week 4 - Face Recognition](https://github.com/gmortuza/coursera-deeplearning/blob/master/4.%20Convolutional%20Neural%20Networks/week%204/Programming%20assignment/Face%20Recognition/Face_Recognition_v3a.ipynb)
 - [Week 4 - Neural Style Transfer](https://github.com/gmortuza/coursera-deeplearning/blob/master/4.%20Convolutional%20Neural%20Networks/week%204/Programming%20assignment/Neural%20Style%20Transfer/Art_Generation_with_Neural_Style_Transfer_v3a.ipynb)
 
