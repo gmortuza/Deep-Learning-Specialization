@@ -110,4 +110,4 @@ Logistic Regression with a Neural Network mindset](https://github.com/gmortuza/c
 - [Week 3](https://github.com/gmortuza/coursera-deeplearning/tree/master/5.%20Sequence%20Models/week%203/Notes) --> Beam search, Error analysis in Beam search, Bleu score, Attention model, Speech recognition
 
 # Specialization certificate:
-![Certificate](certificate.jpg)
+![Certificate](Certificate.jpg)
